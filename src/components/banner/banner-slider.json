@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_banner_banner_sliders",
+  "info": {
+    "displayName": "Banner Slider"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card-square",
+      "required": true
+    }
+  }
+}

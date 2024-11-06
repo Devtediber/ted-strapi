@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_list_list_categories",
+    "info": {
+        "displayName": "List Category",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "subtitle": {
+            "type": "text"
+        },
+        "categories": {
+            "type": "component",
+            "repeatable": true,
+            "component": "catalog.category",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "kind": "collectionType",
+    "collectionName": "advices",
+    "info": {
+        "singularName": "advice",
+        "pluralName": "advices",
+        "displayName": "Advice",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {
+        "import-export-entries": {
+            "idField": "slug"
+        }
+    },
+    "attributes": {
+        "title": {
+            "pluginOptions": {},
+            "type": "string",
+            "required": true
+        },
+        "slug": {
+            "pluginOptions": {},
+            "type": "uid",
+            "required": true
+        },
+        "author": {
+            "pluginOptions": {},
+            "type": "enumeration",
+            "enum": [
+                "aude",
+                "julien",
+                "laura",
+                "laurie",
+                "margaux",
+                "mariam"
+            ],
+            "required": false
+        },
+        "description": {
+            "pluginOptions": {},
+            "type": "text",
+            "required": true
+        },
+        "backLink": {
+            "type": "string",
+            "required": false
+        },
+        "backText": {
+            "type": "string",
+            "required": false
+        },
+        "metaTitle": {
+            "type": "string",
+            "required": false
+        },
+        "metaDescription": {
+            "type": "text",
+            "required": false
+        },
+        "productSlug": {
+            "type": "string",
+            "required": false
+        },
+        "keyProduct": {
+            "type": "string",
+            "required": false
+        },
+        "imageDesktop": {
+            "type": "string",
+            "required": false
+        },
+        "imageMobile": {
+            "type": "string",
+            "required": false
+        },
+        "adviceCategory": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::advice-category.advice-category"
+        },
+        "content": {
+            "type": "richtext",
+            "required": false
+        }
+    }
+}

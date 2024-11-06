@@ -1,0 +1,38 @@
+{
+    "collectionName": "components_header_design_3s",
+    "info": {
+        "displayName": "Design 3"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "seeAllText": {
+            "type": "string"
+        },
+        "seeAllLink": {
+            "type": "string"
+        },
+        "CategoryBanner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.header-category-banner"
+        },
+        "CategoryBanner2": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.header-category-banner"
+        },
+        "ProductColumn": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.product-column"
+        },
+        "MaterialColumn": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.sizes-column"
+        }
+    }
+}

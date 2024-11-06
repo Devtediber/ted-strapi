@@ -1,0 +1,42 @@
+{
+    "collectionName": "components_header_mobile_header_2s",
+    "info": {
+        "displayName": "mobileHeader 2"
+    },
+    "options": {},
+    "attributes": {
+        "cta": {
+            "type": "string"
+        },
+        "seeAllText": {
+            "type": "string"
+        },
+        "seeAllLink": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "mobileProducts": {
+            "type": "component",
+            "repeatable": true,
+            "component": "header.mobile-product-column"
+        },
+        "isCtaVisible": {
+            "type": "boolean"
+        },
+        "ctaLink": {
+            "type": "string"
+        },
+        "MaterialColumn": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.sizes-column"
+        },
+        "CategoryBanner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.header-category-banner"
+        }
+    }
+}

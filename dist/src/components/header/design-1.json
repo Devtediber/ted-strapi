@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_header_design_1s",
+    "info": {
+        "displayName": "Design 1",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "cta": {
+            "type": "string"
+        },
+        "seeAllText": {
+            "type": "string"
+        },
+        "seeAllLink": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "Products": {
+            "type": "component",
+            "repeatable": true,
+            "component": "header.header-menu-product-item"
+        },
+        "isCtaVisible": {
+            "type": "boolean"
+        },
+        "ctaLink": {
+            "type": "string"
+        }
+    }
+}

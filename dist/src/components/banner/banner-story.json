@@ -1,0 +1,36 @@
+{
+    "collectionName": "components_banner_banner_stories",
+    "info": {
+        "displayName": "Banner Story",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "text": {
+            "type": "text",
+            "required": true
+        },
+        "longText": {
+            "type": "text",
+            "required": true
+        },
+        "imageDesktop": {
+            "type": "string",
+            "required": true
+        },
+        "imageMobile": {
+            "type": "string",
+            "required": true
+        },
+        "backgroundColorMobile": {
+            "type": "customField",
+            "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+            "customField": "plugin::color-picker.color",
+            "required": true
+        }
+    }
+}

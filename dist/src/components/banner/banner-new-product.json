@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_banner_banner_new_products",
+    "info": {
+        "displayName": "Banner New Product"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "image": {
+            "type": "string",
+            "required": true
+        },
+        "text": {
+            "type": "text"
+        },
+        "link": {
+            "type": "string",
+            "required": true
+        },
+        "linkLabel": {
+            "type": "string",
+            "required": true
+        },
+        "chipsTitle": {
+            "type": "string"
+        }
+    }
+}

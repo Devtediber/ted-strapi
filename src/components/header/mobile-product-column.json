@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_header_mobile_product_columns",
+  "info": {
+    "displayName": "MobileProductColumn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mobileItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.header-menu-product-item"
+    },
+    "title": {
+      "type": "string"
+    },
+    "seeAllText": {
+      "type": "string"
+    },
+    "seeAllLink": {
+      "type": "string"
+    }
+  }
+}

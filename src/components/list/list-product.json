@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_list_list_products",
+  "info": {
+    "displayName": "List Product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "overline": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "catalog.product",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "collectionName": "components_header_design_2s",
+    "info": {
+        "displayName": "Design 2",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "seeAllText": {
+            "type": "string"
+        },
+        "seeAllLink": {
+            "type": "string"
+        },
+        "CategoryBanner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.header-category-banner"
+        },
+        "ProductColumn": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.product-column"
+        },
+        "SizeColumn": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.sizes-column"
+        },
+        "ColorColumn": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.colors-column"
+        }
+    }
+}

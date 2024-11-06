@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "banner.banner-hero",
+        "banner.banner-edito",
+        "banner.banner-new-product",
+        "banner.banner-reassurance",
+        "banner.banner-advice",
+        "banner.banner-slider",
+        "banner.banner-review",
+        "banner.banner-pro",
+        "banner.banner-story",
+        "banner.banner-media-text",
+        "list.list-category",
+        "list.list-product",
+        "list.list-universe"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

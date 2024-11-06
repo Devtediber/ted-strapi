@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_header_colors_columns",
+  "info": {
+    "displayName": "ColorsColumn"
+  },
+  "options": {},
+  "attributes": {
+    "Colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.menu-color-item"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

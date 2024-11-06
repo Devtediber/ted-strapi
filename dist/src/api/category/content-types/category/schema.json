@@ -1,0 +1,56 @@
+{
+    "kind": "collectionType",
+    "collectionName": "categories",
+    "info": {
+        "singularName": "category",
+        "pluralName": "categories",
+        "displayName": "Category",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "categoryCode": {
+            "type": "string",
+            "required": true
+        },
+        "chestnut": {
+            "type": "component",
+            "repeatable": false,
+            "component": "card.chestnut"
+        },
+        "bannerReassurance": {
+            "type": "component",
+            "repeatable": false,
+            "component": "banner.banner-reassurance"
+        },
+        "satelliteProducts": {
+            "type": "component",
+            "repeatable": false,
+            "component": "list.list-product"
+        },
+        "bannerMediaText": {
+            "type": "component",
+            "repeatable": false,
+            "component": "banner.banner-media-text"
+        },
+        "bannerAdvice": {
+            "type": "component",
+            "repeatable": false,
+            "component": "banner.banner-advice"
+        },
+        "bannerReview": {
+            "type": "component",
+            "repeatable": false,
+            "component": "banner.banner-review"
+        },
+        "seo": {
+            "displayName": "SEO",
+            "type": "component",
+            "repeatable": false,
+            "component": "common.seo"
+        }
+    }
+}

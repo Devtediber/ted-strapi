@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_header_menu_texts",
+    "info": {
+        "displayName": "menuText",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "text": {
+            "type": "string"
+        },
+        "isTitle": {
+            "type": "boolean"
+        },
+        "link": {
+            "type": "string"
+        }
+    }
+}

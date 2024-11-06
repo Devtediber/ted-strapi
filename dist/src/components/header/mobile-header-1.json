@@ -1,0 +1,37 @@
+{
+    "collectionName": "components_header_mobile_header_1s",
+    "info": {
+        "displayName": "mobileHeader 1"
+    },
+    "options": {},
+    "attributes": {
+        "cta": {
+            "type": "string"
+        },
+        "seeAllText": {
+            "type": "string"
+        },
+        "seeAllLink": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "Products": {
+            "type": "component",
+            "repeatable": true,
+            "component": "header.header-menu-product-item"
+        },
+        "isCtaVisible": {
+            "type": "boolean"
+        },
+        "ctaLink": {
+            "type": "string"
+        },
+        "CategoryBanner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "header.header-category-banner"
+        }
+    }
+}

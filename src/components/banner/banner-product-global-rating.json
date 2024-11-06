@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_banner_banner_product_global_ratings",
+  "info": {
+    "displayName": "Banner Product Global Rating",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "score": {
+      "type": "decimal",
+      "required": true
+    },
+    "ratingTitle": {
+      "type": "string",
+      "required": true
+    },
+    "longText": {
+      "type": "text",
+      "required": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

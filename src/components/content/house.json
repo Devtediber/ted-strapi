@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_houses",
+  "info": {
+    "displayName": "house",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topLabel": {
+      "type": "string",
+      "required": true
+    },
+    "bottomLabel": {
+      "type": "string",
+      "required": true
+    },
+    "HouseItem": {
+      "displayName": "HouseItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.house-item",
+      "required": true
+    }
+  }
+}

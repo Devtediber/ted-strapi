@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_banner_banner_advices",
+  "info": {
+    "displayName": "Banner Advice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "linkLabel": {
+      "type": "string",
+      "required": true
+    },
+    "advices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card-advice",
+      "required": true
+    }
+  }
+}

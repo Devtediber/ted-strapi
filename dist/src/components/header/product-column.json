@@ -1,0 +1,14 @@
+{
+    "collectionName": "components_header_product_columns",
+    "info": {
+        "displayName": "productColumn"
+    },
+    "options": {},
+    "attributes": {
+        "menuItems": {
+            "type": "component",
+            "repeatable": true,
+            "component": "header.menu-text"
+        }
+    }
+}

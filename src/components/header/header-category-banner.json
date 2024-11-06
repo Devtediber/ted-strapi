@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_header_header_category_banners",
+  "info": {
+    "displayName": "headerCategoryBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}

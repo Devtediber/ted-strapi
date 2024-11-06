@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_catalog_categories",
+  "info": {
+    "displayName": "Category",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "categoryCode": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_banner_banner_reviews",
+  "info": {
+    "displayName": "Banner Review",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "claim": {
+      "type": "string",
+      "required": true
+    },
+    "score": {
+      "type": "decimal",
+      "required": true
+    },
+    "reviewer": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.review",
+      "max": 3
+    }
+  }
+}

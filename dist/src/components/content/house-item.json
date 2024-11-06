@@ -1,0 +1,13 @@
+{
+    "collectionName": "components_content_house_items",
+    "info": {
+        "displayName": "HouseItem"
+    },
+    "options": {},
+    "attributes": {
+        "image": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

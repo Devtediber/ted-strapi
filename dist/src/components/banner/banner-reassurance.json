@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_banner_banner_reassurances",
+    "info": {
+        "displayName": "Banner Reassurance",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "items": {
+            "type": "component",
+            "repeatable": true,
+            "component": "item.reassurance",
+            "required": true
+        }
+    }
+}

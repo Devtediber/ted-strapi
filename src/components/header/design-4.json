@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_header_design_4s",
+  "info": {
+    "displayName": "Design 4"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seeAllText": {
+      "type": "string"
+    },
+    "seeAllLink": {
+      "type": "string"
+    },
+    "CategoryBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header-category-banner"
+    },
+    "CategoryBanner2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header-category-banner"
+    },
+    "ProductColumn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.product-column"
+    },
+    "ProductColumn2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.product-column"
+    }
+  }
+}

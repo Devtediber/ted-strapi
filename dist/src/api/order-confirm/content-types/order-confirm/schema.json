@@ -1,0 +1,68 @@
+{
+    "kind": "singleType",
+    "collectionName": "order_confirms",
+    "info": {
+        "singularName": "order-confirm",
+        "pluralName": "order-confirms",
+        "displayName": "OrderConfirm",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "dynamiczone",
+            "components": [
+                "base.link",
+                "base.test"
+            ],
+            "required": true
+        },
+        "orderSummary": {
+            "type": "string",
+            "required": true
+        },
+        "deliveryDate": {
+            "type": "string",
+            "required": true
+        },
+        "googleAgendaLabel": {
+            "type": "string",
+            "required": true
+        },
+        "outlookAgendaLabel": {
+            "type": "string",
+            "required": true
+        },
+        "appleAgendaLabel": {
+            "type": "string",
+            "required": true
+        },
+        "delivery": {
+            "type": "string",
+            "required": true
+        },
+        "billing": {
+            "type": "string",
+            "required": true
+        },
+        "questionsTitle": {
+            "type": "string",
+            "required": true
+        },
+        "questionsDescription": {
+            "type": "string",
+            "required": true
+        },
+        "printSummaryLabel": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

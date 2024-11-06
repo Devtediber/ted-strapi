@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "storespages",
+  "info": {
+    "singularName": "storespage",
+    "pluralName": "storespages",
+    "displayName": "Storespage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Où nous trouver ?"
+    },
+    "mapLatitude": {
+      "type": "float",
+      "required": true,
+      "default": 47.34400474912249
+    },
+    "mapLongitude": {
+      "type": "float",
+      "required": true,
+      "default": 2.878959657841942
+    },
+    "mapZoom": {
+      "type": "decimal",
+      "default": 5.8,
+      "required": true
+    },
+    "storesList": {
+      "displayName": "List Store",
+      "type": "component",
+      "repeatable": false,
+      "component": "list.list-store",
+      "required": false
+    }
+  }
+}

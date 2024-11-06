@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advice_categories",
+  "info": {
+    "singularName": "advice-category",
+    "pluralName": "advice-categories",
+    "displayName": "Advice Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "import-export-entries": {
+      "idField": "slug"
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {},
+      "type": "uid",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "description": {
+      "pluginOptions": {},
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "backLink": {
+      "type": "string",
+      "required": false
+    },
+    "backText": {
+      "type": "string",
+      "required": false
+    },
+    "metaTitle": {
+      "type": "string",
+      "required": false
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": false
+    },
+    "imageDesktop": {
+      "type": "string",
+      "required": false
+    },
+    "imageMobile": {
+      "type": "string",
+      "required": false
+    },
+    "adviceSummary": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {},
+      "component": "list.list-advice"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "collectionName": "components_item_reviews",
+    "info": {
+        "displayName": "Review",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "score": {
+            "type": "decimal",
+            "required": true
+        },
+        "icon": {
+            "type": "enumeration",
+            "enum": [
+                "tediber",
+                "google",
+                "avis-verifies",
+                "trustpilot"
+            ],
+            "required": true
+        },
+        "iconAlt": {
+            "type": "string",
+            "required": true
+        },
+        "reviewer": {
+            "type": "string",
+            "required": true
+        },
+        "text": {
+            "type": "text",
+            "required": true
+        }
+    }
+}

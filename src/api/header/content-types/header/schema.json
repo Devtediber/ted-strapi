@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CustomMenu": {
+      "type": "dynamiczone",
+      "components": [
+        "header.design-1",
+        "header.design-2",
+        "header.design-3",
+        "header.design-4",
+        "header.design-5"
+      ]
+    },
+    "MobileMenu": {
+      "type": "dynamiczone",
+      "components": [
+        "header.mobile-header-1",
+        "header.mobile-header-2",
+        "header.mobile-header-3",
+        "header.header-category-banner"
+      ]
+    }
+  }
+}

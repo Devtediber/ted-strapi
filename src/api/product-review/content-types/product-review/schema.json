@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_reviews",
+  "info": {
+    "singularName": "product-review",
+    "pluralName": "product-reviews",
+    "displayName": "Product Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerProductReview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner-product-review",
+      "required": true
+    },
+    "bannerProductGlobalRating": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner-product-global-rating",
+      "required": true
+    },
+    "bannerProductRatingCustomer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner-product-rating-customer",
+      "required": true
+    },
+    "productSlug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
